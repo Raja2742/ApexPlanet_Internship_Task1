@@ -1,0 +1,112 @@
+body{
+    background-color: rgb(188, 177, 177);
+  
+}
+.main{
+
+    background-color: #eef2f7;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+img{
+    vertical-align: middle;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+.skills{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+    background-color: white;
+    width: 700px;
+    border-radius: 5px;
+}
+
+p{
+    padding: 10px;
+    background-color: white;
+    width: 700px;
+    border-radius: 5px;
+    font-size: 20px;
+
+}
+
+.contact{
+     margin-right: 600px;
+   
+}
+.profiles{
+    display: flex;
+   
+    gap:20px;
+}
+
+a{
+    height: 250px;
+    width: 250px;
+    /* background-color: aqua; */
+}
+h3{
+    font-weight: bold;
+
+}
+h4{
+    font-weight: bold;
+
+}
+button{
+    height: 50px;
+    width: 100px;
+    padding: 10px;
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+    background-color: blue;
+    color: white;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+
+/* #button1{
+    display: inline-block;
+    background-color: aqua;
+    color: whitesmoke;
+    height: 30px;
+    width: 55px;
+    padding: 10px 20px;
+    border-radius: 5px;
+} */
+
+#button{
+    display: flex;
+    /* display: inline-block; */
+    background-color: aqua;
+    color: whitesmoke;
+    height: 60px;
+    width: 60px;
+    padding: 10px ;
+    border-radius: 50%;
+    align-items: center;
+    font-weight: bold;
+}
+
+#button:hover{
+    background-color: green;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+li{
+    background-color: lightseagreen;
+    padding: 10px;
+    border-radius: 3px;
+
+}
